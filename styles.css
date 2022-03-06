@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,800;1,300&display=swap');
+
+html{
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0px; 
+}
+
+header, footer, .banner{
+    background-color: #1F2937;
+}
+
+.logo{
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+ul{
+    text-decoration: none;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.links{
+    display: flex;
+    gap: 15px;
+}
+
+.banner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.banner-left{
+    display: flex;
+    flex-direction: column;
+}
+
+.first-section{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 800;
+}
+
+.quote-block{
+    background-color: #E5E7EB;
+}
+
+.quote{
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.banner-text{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.banner-secondary, .links{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button{
+    background-color: #3882F6;
+}
+
+.CTA{
+    background-color: #3882F6;
+    color: white;
+}
+
+.secondary{
+    color: white;
+}
+
+footer{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
