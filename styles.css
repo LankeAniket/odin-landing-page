@@ -1,6 +1,7 @@
 body{
     display: flex;
     flex-direction: column;
+    margin: 0px;
 }
 
 /* Header */
@@ -23,4 +24,115 @@ ul{
     gap: 15px;
     color: #e5e7eb;
     font-size: 18px;
+}
+
+/* Banner section */
+
+.banner{
+    display: flex;
+    justify-content: space-around;
+    background-color: #1f2937;
+}
+
+.bannerheader{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bolder;
+}
+
+.leftside{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.bannerimage{
+    height: 200px;
+    width: 400px;
+}
+
+.bannersubtext{
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.bannerbutton{
+    background-color: #3882f6;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Random information section */
+
+.randominformation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imageblocks{
+    display: flex;
+    gap: 20px;
+}
+
+.randomimageblock{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 200px;
+}
+
+.randomheader{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: bolder;
+}
+
+
+/* Quote section */
+
+.quoteblock{
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+}
+
+.quoteauthor{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.quote{
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+
+/* CTA section */
+
+.ctasection{
+    display: flex;
+    background-color: #3882f6;
+    border-radius: 10px;
+    color: #f9faf8;
+    padding: 10px;
+}
+
+.ctabutton{
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+
+/* Footer */
+
+footer{
+    background-color: #1f2937;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
 }
