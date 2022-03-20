@@ -1,6 +1,4 @@
 body{
-    display: flex;
-    flex-direction: column;
     margin: 0px;
 }
 
@@ -32,6 +30,11 @@ ul{
     display: flex;
     justify-content: space-around;
     background-color: #1f2937;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    gap: 100px;
+    padding-bottom: 20px;
 }
 
 .bannerheader{
@@ -60,6 +63,9 @@ ul{
     background-color: #3882f6;
     color: white;
     border-radius: 5px;
+    margin-right: 350px;
+    border: 0px solid black;
+    padding: 5px 10px;
 }
 
 /* Random information section */
@@ -68,6 +74,8 @@ ul{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 50px;
+    gap: 20px;
 }
 
 .imageblocks{
@@ -95,6 +103,8 @@ ul{
     display: flex;
     flex-direction: column;
     background-color: #e5e7eb;
+    margin-top: 50px;
+    padding: 50px 100px;
 }
 
 .quoteauthor{
@@ -117,7 +127,9 @@ ul{
     background-color: #3882f6;
     border-radius: 10px;
     color: #f9faf8;
-    padding: 10px;
+    padding: 50px 100px;
+    margin-top: 50px;
+    gap: 20px;
 }
 
 .ctabutton{
@@ -125,6 +137,7 @@ ul{
     color: #f9faf8;
     border: 2px solid white;
     border-radius: 5px;
+    padding: 0px 15px;
 }
 
 
@@ -135,4 +148,6 @@ footer{
     color: #e5e7eb;
     display: flex;
     justify-content: center;
+    padding: 20px;
+    margin-top: 50px;
 }
